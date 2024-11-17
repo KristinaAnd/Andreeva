@@ -1,0 +1,85 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    background-color: rgb(181, 238, 181) !important;
+    color: black;
+    font-size: 16px; 
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.Footer {
+    border: 1px solid darkgreen;
+    color: white;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-bd-success {
+    --bd-violet-bg: rgb(181, 238, 181);
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: rgb(181, 238, 181);
+    --bs-btn-hover-border-color: rgb(181, 238, 181);
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: rgb(181, 238, 181);
+    --bs-btn-active-border-color: rgb(181, 238, 181);
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.bd-mode-toggle {
+    z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+    display: block !important;
+}
+
+@media (max-width: 767.98px) {
+    .border-sm-start-none {
+      border-left: none;
+    }
+}
+
+.btn:hover {
+    background-color: darkgreen;
+    box-shadow: 5px 5px 5px  lightgreen;
+    cursor: pointer;
+    top: 15px;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.1, 1.1);
+}
+
+.nav-link:hover {
+    background-color: lightgreen;
+    box-shadow: 3px 3px 3px  white;
+    cursor: pointer;
+    top: 15px;
+    transition-timing-function: step-end;
+    transform: scale(1.1, 1.1);
+}
